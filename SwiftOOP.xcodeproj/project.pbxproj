@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ECAD0DA72A75AC9B00CFA67A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD0DA62A75AC9B00CFA67A /* main.swift */; };
+		ECAD0DAE2A76871D00CFA67A /* Kullanici.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD0DAD2A76871D00CFA67A /* Kullanici.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		ECAD0DA32A75AC9B00CFA67A /* SwiftOOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftOOP; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAD0DA62A75AC9B00CFA67A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ECAD0DAD2A76871D00CFA67A /* Kullanici.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kullanici.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				ECAD0DA62A75AC9B00CFA67A /* main.swift */,
+				ECAD0DAD2A76871D00CFA67A /* Kullanici.swift */,
 			);
 			path = SwiftOOP;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAD0DAE2A76871D00CFA67A /* Kullanici.swift in Sources */,
 				ECAD0DA72A75AC9B00CFA67A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
