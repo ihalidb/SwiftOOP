@@ -24,4 +24,14 @@ print(mercy.meslek)
 mercy.ornekFonksiyon()
 
 print(mercy.tip)
-//let emine = User()
+
+let zeynep = OzelKullanici(isim: "Zeynep", yas: 70, meslek: "Öğretmen", tip: .NormalKullanici)
+
+print(zeynep.isim)
+
+zeynep.yeniFonksiyon()
+
+zeynep.ornekFonksiyon()
+
+
+
