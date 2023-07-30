@@ -12,6 +12,7 @@ class Kullanici {
     var yas :Int = 0
     var meslek : String = ""
     var tip : KullaniciTipi
+    private var sacRengi : String = "Siyah"
     
     
     //initalizer
@@ -27,4 +28,16 @@ class Kullanici {
     func ornekFonksiyon(){
         print("Örnek fonksiyon çalıştırıldı")
     }
+    
+    private func testFonksiyonu(){
+        print("test")
+    }
+    
+    func sacRenginiAl () -> String {
+        return self.sacRengi
+    }
+    
+    
+    //Access Levels
+    //open, public, internel, fileprivate, private
 }

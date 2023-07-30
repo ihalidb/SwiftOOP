@@ -25,6 +25,8 @@ mercy.ornekFonksiyon()
 
 print(mercy.tip)
 
+print(mercy.sacRenginiAl())
+
 let zeynep = OzelKullanici(isim: "Zeynep", yas: 70, meslek: "Öğretmen", tip: .NormalKullanici)
 
 print(zeynep.isim)
